@@ -888,7 +888,6 @@ containing a value of this type.
         public static final int disableHome=0x7f040009;
         public static final int homeAsUp=0x7f040006;
         public static final int listMode=0x7f040002;
-        public static final int menu_settings=0x7f040038;
         public static final int normal=0x7f040001;
         public static final int root_container=0x7f040027;
         public static final int showCustom=0x7f040008;
@@ -945,9 +944,6 @@ containing a value of this type.
         public static final int sherlock_spinner_dropdown_item=0x7f030018;
         public static final int sherlock_spinner_item=0x7f030019;
     }
-    public static final class menu {
-        public static final int activity_main=0x7f0b0000;
-    }
     public static final class string {
         /**  Content description for the action bar "home" affordance. [CHAR LIMIT=NONE] 
          */
@@ -980,8 +976,10 @@ containing a value of this type.
          */
         public static final int abs__shareactionprovider_share_with_application=0x7f090009;
         public static final int app_name=0x7f09000a;
+        public static final int empty_social_stream=0x7f09000e;
         public static final int hello_world=0x7f09000b;
         public static final int menu_settings=0x7f09000c;
+        public static final int stream_originally_shared=0x7f09000f;
         public static final int title_activity_main=0x7f09000d;
     }
     public static final class style {

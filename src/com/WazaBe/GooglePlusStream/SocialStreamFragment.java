@@ -159,7 +159,7 @@ public class SocialStreamFragment extends SherlockListFragment implements
     @Override
     public void onActivityCreated(Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
-        setEmptyText("getString(R.string.empty_social_stream)");
+        setEmptyText(getString(R.string.empty_social_stream));
 
         // In support library r8, calling initLoader for a fragment in a FragmentPagerAdapter
         // in the fragment's onCreate may cause the same LoaderManager to be dealt to multiple
@@ -723,7 +723,7 @@ public class SocialStreamFragment extends SherlockListFragment implements
             // Set original author.
             if (activity.getObject().getActor() != null) {
                 views.originalAuthor.setVisibility(View.VISIBLE);
-                views.originalAuthor.setText("res.getString(R.string.stream_originally_shared,activity.getObject().getActor().getDisplayName())");
+                views.originalAuthor.setText(res.getString(R.string.stream_originally_shared,activity.getObject().getActor().getDisplayName()));
 
                 views.reshareLine.setVisibility(View.VISIBLE);
                 views.reshareSpacer.setVisibility(View.INVISIBLE);

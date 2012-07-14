@@ -4,5 +4,7 @@
     <string name="hello_world">Hello world!</string>
     <string name="menu_settings">Settings</string>
     <string name="title_activity_main">SocialStreamFragment</string>
+    <string name="empty_social_stream">No posts found.</string>
+    <string name="stream_originally_shared">%s originally shared this post</string>
 
 </resources>
