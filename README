@@ -1,0 +1,20 @@
+This is a demo of a Google Plus Stream.
+This was introduced by Roman Nurik in the Google IO 2012 app.
+
+I just copy/pasted his code for easier share.
+Please thank him on Google plus: https://plus.google.com/113735310430199015092/posts
+
+My Google Plus page: https://plus.google.com/108315424589085456181
+
+HOW TO USE:
+
+- Modify Private.java and add your api key (https://developers.google.com/accounts/docs/OAuth2#Registering)
+- Add the awesome ActionBarSherlock library: http://actionbarsherlock.com/
+- add some jars into your lib folder (http://code.google.com/p/google-api-java-client/wiki/Setup):
+     google-api-client-1.10.3-beta.jar
+     google-api-services-plus-v1-rev17-1.7.2-beta.jar
+     google-http-client-1.10.3-beta.jar
+     guava-11.0.1.jar
+     jackson-core-asl-1.9.4.jar
+
+!https://github.com/ChristopheVersieux/SocialStreamFragment/raw/master/screen1.png(Screenshot)!
